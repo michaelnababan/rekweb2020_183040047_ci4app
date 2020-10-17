@@ -12,6 +12,7 @@ class Orang extends Migration
 			'id' => [
 				'type' => 'INT',
 				'constraint' => '11',
+				'unsigned' => TRUE,
 				'auto_increment' => true
 			],
 			'nama' => [
@@ -34,8 +35,6 @@ class Orang extends Migration
 		$this->forge->addKey('id', true);
 		$this->forge->createTable('orang');
 	}
-
-	//--------------------------------------------------------------------
 
 	public function down()
 	{

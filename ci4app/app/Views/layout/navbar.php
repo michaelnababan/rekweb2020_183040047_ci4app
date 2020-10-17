@@ -9,13 +9,16 @@
         <a class="nav-link" href="/">Home</a>
       </li>
       <li class="nav-item">
-        <a href="/komik" class="nav-link">Komik</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="/pages/about">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/pages/contact">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a href="/komik" class="nav-link">Komik</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/orang">Orang</a>
       </li>
     </ul>
   </div>
